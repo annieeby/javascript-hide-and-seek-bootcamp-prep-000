@@ -6,6 +6,15 @@ function nestedTarget(){
 return document.querySelector('#nested .target')
 }
 
+/* ALT?
+
+
+function nestedTarget() {
+ return document.getElementById("nested").querySelectorAll(".target");
+}
+
+*/
+
 function increaseRankBy(n){
   var lis = document.querySelectorAll(".ranked-list");
   for (let i = 0; i < lis.length; i++) {
